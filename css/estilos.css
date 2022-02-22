@@ -4,7 +4,7 @@
     box-sizing:border-box;
  }
  body{
-     background-color: #a5a5a5;
+     background-color: #6d6d6d;
  }
 .header__logo{
     text-align: center;
@@ -140,8 +140,8 @@ footer{
         padding-bottom:1rem;
         padding-top:1rem;
         margin:0;
-        border-right: solid 0.13rem;
-        border-left:solid 0.13rem;
+        border-right: solid 0.06rem;
+        border-left:solid 0.06rem;
         background-color: #252525;
         align-items: center;
     }
@@ -188,8 +188,8 @@ footer{
         padding-bottom:1rem;
         padding-top:1rem;
         margin:0;
-        border-right: solid 0.13rem;
-        border-left:solid 0.13rem;
+        border-right: solid 0.06rem;
+        border-left:solid 0.06rem;
         background-color: #252525;
     }
     .contacto{
@@ -197,12 +197,21 @@ footer{
         display:flex;
         padding: 2rem;
     }
-    .serviciosEquipos{
-        text-align: center;
-        flex-wrap: wrap;
-        justify-content:space-evenly;
+    .contacto__text{
+        padding-right: 2rem;
     }
-    
+    .serviciosEquipos{
+        width: 100%;
+        list-style-type: none;
+        overflow: hidden;
+    }
+    .serviciosEquipos li{
+        width: 100%;
+    }
+    .serviciosEquipos li img{
+        width:100%;
+    }
+}
 @keyframes efectoLogo{
     0%{
         transform:translate(-100vw,0);
@@ -234,5 +243,4 @@ footer{
     100%{
         transform: scale(1);
     }
-}
 }
