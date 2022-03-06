@@ -36,7 +36,7 @@
         align-items: center;
     }
     .contacto{
-        display:flex;
+        @include flex-column();
         align-items: center;
         text-align: center;
         padding-bottom: 2rem;
