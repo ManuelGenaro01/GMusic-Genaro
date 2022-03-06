@@ -1,0 +1,54 @@
+@media screen and (min-width:1024px) {
+    .body{
+        grid-template-areas:"logo"
+                            "nav"
+                            "cont"
+                            "footer";
+    }
+    .head{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header__logo{
+        padding-top:1rem;
+        padding-left:1rem;
+    }
+    .redes{
+        padding-right:2rem;
+    }
+    .naveg__bot{
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .naveg__bot--border{
+        width: 20%;
+        padding-bottom:1rem;
+        padding-top:1rem;
+        margin:0;
+        border-right: solid 0.06rem;
+        border-left:solid 0.06rem;
+        background-color: #252525;
+    }
+    .contacto{
+        text-align: left;
+        display:flex;
+        padding: 2rem;
+    }
+    .contacto__text{
+        padding-right: 2rem;
+    }
+    .serviciosEquipos{
+        width: 100%;
+        list-style-type: none;
+        overflow: hidden;
+        li{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

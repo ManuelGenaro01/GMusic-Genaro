@@ -1,0 +1,14 @@
+$tamañosFuentes:(
+    font1:1.5rem,
+    font2:2rem,
+);
+@import "./parciales/reset";
+@import "./parciales/fonts";
+@import "./parciales/grid";
+@import "./parciales/header";
+@import "./parciales/componentes";
+@import "./parciales/animaciones";
+@import "./parciales/nav";
+@import "./parciales/formulario";
+@import "./parciales/mobile";
+@import "./parciales/desktop";

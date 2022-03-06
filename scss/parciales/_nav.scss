@@ -1,0 +1,26 @@
+.naveg{
+    position:sticky;
+    top:0px;
+    grid-area: nav;
+    animation-name: efecto_nav;
+    animation-duration: 1s;
+ }
+.naveg__bot{
+    display:flex;
+    list-style-type: none;
+    overflow:hidden;
+    background-color: black;
+    li{
+        a{
+            text-align: center;
+            text-decoration: none;
+            color:white;
+            font-family: $font3;
+            font-size:map-get($tamañosFuentes, font1 );
+            transition: font-size 0.5s;
+            &:hover{
+                font-size:map-get($tamañosFuentes, font2);
+            }
+        }
+    }
+}
