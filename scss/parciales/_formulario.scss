@@ -1,6 +1,6 @@
 .formulario__tamaño{
     width:40rem;
-    border:solid 0.10rem;
+    border:solid 0.10rem rgb(29, 29, 29);
     padding:2rem;
     textarea{
         width:20rem;
@@ -8,7 +8,8 @@
     }
 }
 .formulario__tamaño--font{
-    font-family: 'Roboto', sans-serif;
+    font-family: $font1;
+    color:white;
     font-size: 1rem;
     padding-top:0.3rem;
 }
